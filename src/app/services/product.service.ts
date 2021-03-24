@@ -24,6 +24,6 @@ export class ProductService {
   }
 
   add(product:Product){
-    return this.httpClient.post(this.apiUrl+"products/add",product)
+    return this.httpClient.post(this.apiUrl+"products/add",product,)
   }
 }
